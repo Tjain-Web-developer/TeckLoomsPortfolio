@@ -232,7 +232,7 @@ const Footer = () => {
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
               Developed with ❤️ by{" "}
-              <a href="https://www.tecklooms.com" target="_blank" rel="nofollow noopener">
+              <a href="https://www.tecklooms.com" target="_blank" rel="nofollow noreferrer noopener">
                 Tecklooms
               </a>
             </p>
