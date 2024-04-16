@@ -10,31 +10,31 @@ const menuData: Menu[] = [
   {
     id: 2,
     title: "About",
-    path: "/about",
+    path: "#about",
     newTab: false,
   },
   {
     id: 3,
     title: "Services",
-    path: "/services",
+    path: "#features",
     newTab: false,
   },
   {
     id: 4,
     title: "Projects",
-    path: "/projects",
+    path: "#blog",
     newTab: false,
   },
   {
     id: 5,
     title: "Testimonials",
-    path: "/testimonials",
+    path: "#testimonials",
     newTab: false,
   },
   {
     id: 6,
     title: "Contact",
-    path: "/contact",
+    path: "#contact",
     newTab: false,
   },
   // {

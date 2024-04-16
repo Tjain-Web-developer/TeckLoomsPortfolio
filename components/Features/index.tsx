@@ -9,7 +9,7 @@ const Features = () => {
         <div className="container">
           <SectionTitle
             title="What We Do"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            paragraph="Tailored Software Solutions Engineered for Your Business Needs. Whether it's Bespoke Development or Cloud Integration, Trust Us to Propel Your Digital Journey."
             center
           />
 

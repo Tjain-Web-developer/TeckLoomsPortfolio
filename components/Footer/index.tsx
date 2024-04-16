@@ -14,7 +14,7 @@ const Footer = () => {
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
-                  <Image
+                  {/* <Image
                     src="/images/logo/logo-2.svg"
                     alt="logo"
                     className="w-full dark:hidden"
@@ -27,11 +27,42 @@ const Footer = () => {
                     className="hidden w-full dark:block"
                     width={140}
                     height={30}
+                  /> */}
+                  <div className="flex w-full items-center">
+                  <Image
+                    src="/images/logo/logo-icon.png"
+                    alt="logo"
+                    width={35}
+                    height={35}
+                    className="dark:hidden"
                   />
+                  <Image
+                    src="/images/logo/logo-name.png"
+                    alt="logo"
+                    width={130}
+                    height={60}
+                    className="dark:hidden"
+                  />
+                </div>
+                <div className="flex w-full items-center">
+                  <Image
+                    src="/images/logo/logo-icon.png"
+                    alt="logo"
+                    width={35}
+                    height={35}
+                    className="hidden dark:block"
+                  />
+                  <Image
+                      src="/images/logo/logo-name.png"
+                      alt="logo"
+                      width={130}
+                      height={60}
+                      className="hidden dark:block"
+                  />
+                </div>
                 </Link>
                 <p className="dark:text-body-color-dark mb-9 text-base leading-relaxed text-body-color">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                At the Forefront of Software Innovation, We Customize Solutions to Fit Your Business Perfectly. 
                 </p>
                 <div className="flex items-center">
                   <a
@@ -102,26 +133,26 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a
-                      href="/blogs"
+                      href="#blog"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      Blog
+                      Projects
                     </a>
                   </li>
                   <li>
                     <a
-                      href="/pricing"
+                      href="#features"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      Pricing
+                      Services
                     </a>
                   </li>
                   <li>
                     <a
-                      href="/about"
+                      href="#testimonials"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      About
+                      Testimonials
                     </a>
                   </li>
                 </ul>
@@ -170,7 +201,7 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a
-                      href="/contact"
+                      href="#contact"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
                       Open Support Ticket
@@ -186,7 +217,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="/about"
+                      href="#about"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
                       About
@@ -200,9 +231,9 @@ const Footer = () => {
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-              Template by UIdeck and{" "}
-              <a href="https://nextjstemplates.com" rel="nofollow noopener">
-                Next.js Templates
+              Developed with ❤️ by{" "}
+              <a href="https://www.tecklooms.com" target="_blank" rel="nofollow noopener">
+                Tecklooms
               </a>
             </p>
           </div>
